@@ -109,7 +109,9 @@ p:last-child {
 }
 
 .tittle {
-  font-family: 'Raleway';
+  margin-bottom: 20px;
+
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 42px;
   line-height: 49px;
@@ -125,6 +127,9 @@ p:last-child {
 }
 
 .subtittle {
+  margin-bottom: 20px;
+
+  font-weight: 400;
   font-size: 18px;
   line-height: 1.67;
   letter-spacing: 0.02em;
@@ -296,7 +301,29 @@ color: var(--secondary-txt-light);
   background-color: var(--primary-bg-light);
 }
 
+.about-container {
+  display: flex;
+}
+
+.about-list {
+  display: flex;
+}
+
+.about-item {
+  margin-right: 30px;
+}
+
+.about-item:last-child {
+  margin-right: 0;;
+}
+
+.about-wrapper {
+  width: 500px;
+  margin-left: auto;
+}
+
 .about-descr {
+  margin-bottom: 40px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.86;
