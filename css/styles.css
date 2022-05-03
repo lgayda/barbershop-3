@@ -337,12 +337,60 @@ color: var(--secondary-txt-light);
   background-color: var(--primary-bg-dark);
 }
 
+.prise .tittle {
+  margin-bottom: 44px;
+}
+
+.prise-list {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 50px;
+}
+
+.prise-item {
+  outline: 1px solid red;
+  flex-basis: calc(100%/2);
+  padding: 30px 40px;
+
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.prise-inner-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.prise-inner-item:last-child {
+  margin-bottom: 0;
+}
+
 .prise-inner-item,
 .prise-inner-txt {
   color: var(--secondary-txt-dark);
 }
 
+.prise .main-btn {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Advantages */
+.advantages {
+  background-color: var(--primary-bg-light);
+}
+
+.advantages-container {
+  display: flex;
+}
+
+.advantages-wrapper {
+  width: 500px;
+  margin-left: auto;
+}
+
 .advantages-quantity {
   font-weight: 700;
   font-size: 42px;
