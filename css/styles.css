@@ -386,12 +386,14 @@ color: var(--secondary-txt-light);
   display: flex;
 }
 
-.advantages-wrapper {
-  width: 500px;
-  margin-left: auto;
+.advantages-item {
+  width: 170px;
+  height: 133px;
 }
 
 .advantages-quantity {
+  margin-bottom: 6px;
+
   font-weight: 700;
   font-size: 42px;
   line-height: 1.36;
@@ -408,16 +410,42 @@ color: var(--secondary-txt-light);
   color: var(--secondary-txt-light);
 }
 
+.advantages-wrapper {
+  width: 500px;
+  margin-left: auto;
+}
+
 /*Team */
 .team {
   background-color: var(--secondary-bg-light);
 }
 
+.team-list {
+  display: flex;
+  text-align: center;
+}
+
 .team-item {
+  margin-right: 30px;
+
   cursor: pointer;
 }
 
+.team-item:last-child {
+  margin-right: 0;
+}
+
+.team-avatar {
+  margin-bottom: 30px;
+}
+
+.team-wrapper {
+  
+}
+
 .team-headline {
+  margin-bottom: 8px;
+
   font-size: 18px;
   line-height: 1.39;
   letter-spacing: 0.02em;
@@ -426,6 +454,8 @@ color: var(--secondary-txt-light);
 }
 
 .team-position {
+  margin-bottom: 30px;
+
   font-size: 14px;
   line-height: 1.36;
   letter-spacing: 0.02em;
@@ -436,6 +466,23 @@ color: var(--secondary-txt-light);
 .socials-item:hover,
 .socials-item:focus {
   color: var(--accent-cl);
+}
+
+/* Gallery */
+.gallery .uppertittle {
+  margin-bottom: 44px;
+}
+
+.gallery-list {
+  display: flex;
+}
+
+.gallery-item {
+  margin-right: 30px;
+}
+
+.gallery-item:last-child {
+  margin-right: 0;
 }
 
 /* Contacts */
